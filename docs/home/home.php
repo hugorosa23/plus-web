@@ -91,7 +91,7 @@ require '..\vendor\check.php';
             <ul id="#js-popoverContent" class="nav navbar-nav float-right mr-0 hidden-sm-down">
             <li class="nav-item">
                 <a class="app-notifications nav-link" href="../notifications/index.html">
-                <span class="icon icon-bell"><img src="../assets/img/gear.png" width="30px"></span>
+                <span class="text-green icon icon-bell"></span>
                 </a>
             </li>
             <li class="nav-item ml-2" style="margin-top: 7px">

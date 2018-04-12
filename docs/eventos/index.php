@@ -1,4 +1,11 @@
+<?php
+session_start();
+ 
+require_once '..\vendor\init.php';
 
+require '..\vendor\check.php';
+
+?>
 
 
 <!DOCTYPE html>
@@ -56,10 +63,10 @@
 
 <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="../home/home.php">Home <span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
         <a class="nav-link" href="#">Eventos</a>
     </li>
     <li class="nav-item">

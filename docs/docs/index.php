@@ -57,7 +57,7 @@
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="../home/home.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -66,7 +66,7 @@
         <li class="nav-item">
             <a class="nav-link" href="../calendario/index.php">Calendário</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="../docs/index.php">Sobre</a>
         </li>
 
@@ -107,7 +107,7 @@
     <div class="docs-header" id="content">
       <div class="container">
         <h1>Sobre</h1>
-        <p>Find out what's included in your Bootstrap theme and how to compile source files. Includes live examples and code snippets for every new component.</p>
+        <p>Nada com nada e mais nada resultando em nadica de nada!</p>
       </div>
     </div>
     <div class="container docs-content">

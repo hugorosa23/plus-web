@@ -1,7 +1,7 @@
 <?php
  
 // inclui o arquivo de inicialização
-require 'vendor/init.php';
+require '../vendor/init.php';
  
 // resgata variáveis do formulário
 $email = isset($_POST['email']) ? $_POST['email'] : '';
@@ -24,7 +24,7 @@ $stmt->bindParam(':senha',md5 ($senha));
 $stmt->execute();
  
 $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
- 
+
 if (count($usuarios) <= 0)
 {
     echo "Email ou senha incorretos";
@@ -41,4 +41,4 @@ $_SESSION['us_nome_full'] = $usuario['nome'];
 $_SESSION['us_login'] = $usuario['login'];
 $_SESSION['us_email'] = $usuario['email'];
  
-header('Location: home\home.php');
+header('Location: ../home/home.php');

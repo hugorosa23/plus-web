@@ -252,6 +252,16 @@ strong {
     border: 2px solid #292b2c;
     cursor: pointer;
   }
+/*Botão de cadastro*/
+.cadastro-btn-default {
+  background-color: #52d3aa;
+  border: 2px solid #52d3aa;
+  color:white;
+  cursor: pointer;
+}
+  .cadastro-btn-default:hover {
+    border: 3px solid #42bd94;
+  }
 
 .btn-outline-default {
   color: #52d3aa;
@@ -298,4 +308,7 @@ body {
 
 .text-green {
   color:#52d3aa;
+}
+.text-dark {
+  color: #292b2c;
 }
